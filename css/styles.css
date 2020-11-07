@@ -1,3 +1,7 @@
+*{
+  --color: #FBFB04;
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -7,7 +11,7 @@ html, body{
 
 .header{
     align-items: center;   
-    background-color: #FBFB04;
+    background-color: var(--color);
     display: flex;
     height: 100px;
     justify-content: space-between;
@@ -34,6 +38,7 @@ html, body{
 
 .hero{
     padding: 20%;
+    padding-top: calc(20% - 100px);
     text-align: center;
 }
 
@@ -48,7 +53,8 @@ html, body{
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-    font-size: 22px;
+    font-size: 48px;
+    text-decoration: none;
   }
   .s-m #insta:hover{
     background: #e67e22;
