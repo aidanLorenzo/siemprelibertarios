@@ -69,6 +69,29 @@ html, body{
 
 /* ----------------------------------------------------------------hero end */
 
+.devs_title{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.developers{
+    align-items: center;
+    background-image: url('../imgs/curve.png');
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+.developer{
+    background-color: white;
+    height: 400px;
+    width: 500px;
+}
+
+/* ------------------------------------------------------------------devs end */
+
 .footer{
     align-items: center;
     background-color: #444;
