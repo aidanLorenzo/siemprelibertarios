@@ -1,5 +1,6 @@
 *{
   --yellow-color: #FBFB04;
+  --brown-color: #e67e22;
 }
 
 html, body{
@@ -46,7 +47,7 @@ html, body{
     display: inline-flex;
     width: 80px;
     height: 80px;
-    background: rgb(247, 194, 19);
+    background-color: var(--brown-color);
     color: white;
     margin: 0 6px;
     border-radius: 50%;
@@ -57,7 +58,7 @@ html, body{
     text-decoration: none;
   }
   .s-m #insta:hover{
-    background: #e67e22;
+    background: var(--yellow-color);
   }
   .s-m a i{
     transition: 0.4s all;
