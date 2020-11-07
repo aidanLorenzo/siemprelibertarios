@@ -15,7 +15,7 @@ html, body{
 
 .logo_wrapper{
     margin: 0;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .menu a{
@@ -26,9 +26,36 @@ html, body{
 }
 
 .menu a:hover{
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: underline;
 }
 
 /* ------------------------------------------------------------Header end */
 
+.hero{
+    padding: 20%;
+    text-align: center;
+}
+
+.s-m #insta{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    background: rgb(247, 194, 19);
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 22px;
+  }
+  .s-m #insta:hover{
+    background: #e67e22;
+  }
+  .s-m a i{
+    transition: 0.4s all;
+  }
+  .s-m a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+  }
