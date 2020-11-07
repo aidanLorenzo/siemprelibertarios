@@ -11,7 +11,11 @@ html, body{
 
 .header{
     align-items: center;   
+<<<<<<< Updated upstream
     background-color: var(--color);
+=======
+    background-color: #dfcb20;
+>>>>>>> Stashed changes
     display: flex;
     height: 100px;
     justify-content: space-between;
@@ -64,4 +68,22 @@ html, body{
   }
   .s-m a:hover > i{
     transform: scale(1.6) rotate(25deg);
+  }
+
+  /* ----------------------------------------------------------------hero end */
+
+  .footer{
+      background-color: #444;
+      color: white;
+      text-align: center;
+      height: 75px;
+  }
+
+  .footer a{
+      color: white;
+      text-decoration: none;
+  }
+
+  .footer a:hover{
+      text-decoration: underline;
   }
