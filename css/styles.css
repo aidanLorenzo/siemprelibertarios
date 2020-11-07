@@ -37,7 +37,7 @@ html, body{
 
 /* ------------------------------------------------------------Header end */
 
-.hero{
+#hero{
     padding: 20%;
     padding-top: calc(20% - 100px);
     text-align: center;
@@ -70,11 +70,11 @@ html, body{
 /* ----------------------------------------------------------------hero end */
 
 .devs_title{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 
-.developers{
+#developers{
     align-items: center;
     background-image: url('../imgs/curve.png');
     background-size: cover;
