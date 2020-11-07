@@ -11,11 +11,7 @@ html, body{
 
 .header{
     align-items: center;   
-<<<<<<< Updated upstream
     background-color: var(--color);
-=======
-    background-color: #dfcb20;
->>>>>>> Stashed changes
     display: flex;
     height: 100px;
     justify-content: space-between;
