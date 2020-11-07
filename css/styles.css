@@ -66,20 +66,41 @@ html, body{
     transform: scale(1.6) rotate(25deg);
   }
 
-  /* ----------------------------------------------------------------hero end */
+/* ----------------------------------------------------------------hero end */
 
-  .footer{
-      background-color: #444;
-      color: white;
-      text-align: center;
-      height: 75px;
-  }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    height: 75px;
+}
 
-  .footer a{
-      color: white;
-      text-decoration: none;
-  }
+.footer a{
+    color: white;
+    text-decoration: none;
+}
 
-  .footer a:hover{
-      text-decoration: underline;
-  }
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+  padding: 0px 20px 0px 20px;
+}
+
+.footer p{
+  padding: 0;
+  margin: 0;
+}
+
+.insta_footer{
+  font-size: 30px;
+}
+
+.insta_footer:hover{
+  font-size: 40px;
+  transition: all 300ms;
+}
