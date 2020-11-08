@@ -78,17 +78,19 @@ nav li a:hover{
 
 #product_title{
   text-align: center;
-  margin-top: 75px;
+  margin: 75px 0;
 }
 
 .product_container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: space-around ;
+  margin-bottom: 110px;
 }
 
 .product_item{
-  width: 300px;
-  height: 300px;
+  height: 400px;
   background-color: black;  
 }
 
