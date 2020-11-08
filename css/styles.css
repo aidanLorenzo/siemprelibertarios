@@ -1,4 +1,4 @@
-*{
+:root{
   --yellow-color: #FBFB04;
   --brown-color: #E67E22;
   --grey-color: #444;
@@ -16,7 +16,6 @@ nav{
   display: flex;
   background-color: var(--yellow-color);
   padding: 15px;
-  color: white;
   justify-content: space-between;
   align-items: center;
 }
@@ -40,8 +39,8 @@ nav li a{
 }
 
 nav li a:hover{
-  color: white;
   text-decoration: underline;
+  font-size: 18px;
 }
 /* ------------------------------------------------------------Header end */
 
@@ -75,6 +74,7 @@ nav li a:hover{
   }
 
 /* ----------------------------------------------------------------hero end */
+
 
 
 
