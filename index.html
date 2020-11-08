@@ -5,31 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="./imgs/icon.png">
+    <link rel="icon" type="image/png" href="./imgs/logo.png">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Siemprelibertarios</title>
+    <title>Home | Siempre Libertarios</title>
 </head>
 <body>
-    <header class="header">
-        <figure class="logo_wrapper">
-            <a href="#"><img class="logo_img" src="./imgs/icon.png" alt="logo SL" width="100" height="100"></a>
-        </figure>
-            <ul class="menu">
-                <a href="#">Inicio</a>
-                <a href="#">Contenido</a>
-                <a href="#">Devs</a>
+    <nav>
+        <div class="brand_image">
+            <a href="#"><img src="./imgs/logo.png" alt="logo"></a>
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#product_title">Contenido</a></li>
+                <li><a href="#developers">Devs</a></li>
             </ul>
-    </header>
-    <section class="hero">
+        </div>
+    </nav>
+    <!--------------------------------------------------------------- header end -->
+    <section id="hero">
         <h2 class="hero_phrase">
-            Las ideas de la libertad y el libre mercado han sacado a la humanidad de la pobreza extrema.
+            Una pagina donde podras abrirte a una nueva manera de ver el mundo
         </h2>
         <div class="s-m">
             <a id="insta" href="https://www.instagram.com/siemprelibertarios/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
     </section>
     <hr>
+    <!------------------------------------------------------------------- hero end -->
 
+    <h2 id="product_title">¿Que encontraras aqui?</h2>
+    <section class="product_container">
+        <div class="product_item">
+            <figure class="product_img_wrapper">
+                <img src="./imgs/text.jpg" alt="texto" class="product_img">
+            </figure>
+            <div class="product_item_content">
+                <h3>Acceso a escritos gratis</h3>
+                <p>Lee todo el contenido que tenemos para ti</p>
+            </div>
+        </div>
+        <div class="product_item">
+            <figure class="product_img_wrapper">
+                <img src="./imgs/handshake.jpg" alt="interactua" class="product_img">
+            </figure>
+            <div class="product_item_content">
+                <h3>Interactua con otros</h3>
+                <p>Usa el sistema de comentarios o entra a nuestra pagina de instagram</p>
+            </div>
+        </div>
+        <div class="product_item">
+            <figure class="product_img_wrapper">
+                <img src="./imgs/brain.png" alt="expande mente" class="product_img">
+            </figure>
+            <div class="product_item_content">
+                <h3>Expande tu mente</h3>
+                <p>Observa distintos puntos de vista que te haran mas critico</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!------------------------------------------------------------------ product end -->
+    
+    <h2 class="devs_title">Desarrolladores</h2>
+    <section id="developers">
+        <div class="developer">
+            <div class="content">
+                <img src="./imgs/aidan.jpg" alt="aidan">
+                <h3>Aidan Lorenzo</h3>
+                <a href="https://www.instagram.com/x.aidxn_/" target="blank">@x.aidxn_</a>
+            </div>
+        </div>
+        <div class="developer">
+            <div class="content">
+                <img src="./imgs/miquel.jpg" alt="miquel">
+                <h3>Miquel Muntaner</h3>
+                <a href="https://www.instagram.com/miquelmuntaner2/" target="blank">@miquelmuntaner2</a>
+            </div>   
+        </div>
+    </section>
+    <!------------------------------------------------------------------- devs end -->
 
     <footer class="footer">
         <a class="insta_footer" href="https://www.instagram.com/siemprelibertarios/" target="_blank"><i class="fab fa-instagram"></i></a>
