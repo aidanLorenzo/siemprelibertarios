@@ -68,10 +68,10 @@ nav li a:hover{
     background: var(--yellow-color);
   }
   .s-m a i{
-    transition: 0.4s all;
+    transition: 1s all;
   }
   .s-m a:hover > i{
-    transform: scale(1.6) rotate(25deg);
+    transform: scale(1.6) rotate(360deg);
   }
 
 /* ----------------------------------------------------------------hero end */
