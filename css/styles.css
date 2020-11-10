@@ -88,6 +88,12 @@ html, body{
   margin-bottom: 50px;
 }
 
+.product_item{
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--grey-color);
+  padding: 10px;
+}
+
 .product_item .product_img{
   height: 200px;
   width: 100%;  
