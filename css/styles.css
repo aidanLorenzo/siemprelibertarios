@@ -54,7 +54,7 @@ html, body{
   border-radius: 50%;
   color: var(--white-color);
   display: inline-flex;
-  font-size: 48px;
+  font-size: 48px;  
   height: 90px;
   justify-content: center;
   text-decoration: none;
@@ -88,7 +88,7 @@ html, body{
 
 .product_item .product_img{
   height: 200px;
-  width: 100%;
+  width: 100%;  
 }
 
 .product_item .product_item_content{
@@ -138,18 +138,10 @@ html, body{
   display: flex;
   height: 75px;
   justify-content: space-between;
-}
-
-.footer{
   padding: 0px 20px;
 }
 
-.footer .insta_footer{
+.footer .icons_footer a{
   color: var(--white-color);
   font-size: 40px;
-}
-
-.email_footer{
-    color: black;
-    font-size: 40px;
 }
