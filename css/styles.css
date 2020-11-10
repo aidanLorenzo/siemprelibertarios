@@ -102,51 +102,12 @@ html, body{
   width: 100%;  
 }
 
-.product_item:hover .product_img{
-  animation: animationImg 300ms linear;
-}
-
-@keyframes animationImg{
-  from{
-      transform: translateY(-200%);
-  }
-  to{
-      transform: translateY(0%);
-  }
-}
-
 .product_item h3{
   transition: all 300ms;
 }
 
-.product_item:hover h3{
-  animation: animationH3 400ms linear;
-}
-
-@keyframes animationH3{
-  from{
-      transform: translateY(-300%);
-  }
-  to{
-      transform: translateY(0%);
-  }
-}
-
 .product_item{
   transition: all 300ms;
-}
-
-.product_item:hover p{
-  animation: animationP 400ms linear;
-}
-
-@keyframes animationP{
-  from{
-      transform: translateX(-300%);
-  }
-  to{
-      transform: translateX(0%);
-  }
 }
 
 /* -------------------------------------------------------------------product end */
