@@ -12,7 +12,7 @@ html, body{
   padding: 0;
 }
 
-nav{
+.header{
   align-items: center;
   background-color: var(--yellow-color);
   display: flex;
@@ -21,22 +21,22 @@ nav{
   padding: 15px;
 }
 
-nav .brand_image img{
+.header .brand_image img{
   height: 100px;
 }
 
-nav ul{
+.header .nav_options ul{
   display: flex;
   list-style: none;
 }
 
-nav li a{
+.header li a{
   color: black;
   text-decoration: none;
   padding-left: 15px;
 }
 
-nav li a:hover{
+.header li a:hover{
   font-size: 18px;
   text-decoration: underline;
 }
