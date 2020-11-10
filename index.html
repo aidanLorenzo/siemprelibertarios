@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9793bed6f.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="./imgs/logo.png">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Home | Siempre Libertarios</title>
 </head>
 <body>
-    <nav>
+    <header class="header">
         <div class="brand_image">
             <a href="#"><img src="./imgs/logo.png" alt="logo"></a>
         </div>
-        <div class="nav_options">
+        <nav class="nav_options">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#product_title">Contenido</a></li>
                 <li><a href="#developers">Devs</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!--------------------------------------------------------------- header end -->
     <section id="hero">
         <h2 class="hero_phrase">
@@ -40,28 +41,22 @@
             <figure class="product_img_wrapper">
                 <img src="./imgs/text.jpg" alt="texto" class="product_img">
             </figure>
-            <div class="product_item_content">
                 <h3>Acceso a escritos gratis</h3>
                 <p>Lee todo el contenido que tenemos para ti</p>
-            </div>
         </div>
         <div class="product_item">
             <figure class="product_img_wrapper">
                 <img src="./imgs/handshake.jpg" alt="interactua" class="product_img">
             </figure>
-            <div class="product_item_content">
                 <h3>Interactua con otros</h3>
                 <p>Usa el sistema de comentarios o entra a nuestra pagina de instagram</p>
-            </div>
         </div>
         <div class="product_item">
             <figure class="product_img_wrapper">
                 <img src="./imgs/brain.png" alt="expande mente" class="product_img">
             </figure>
-            <div class="product_item_content">
                 <h3>Expande tu mente</h3>
                 <p>Observa distintos puntos de vista que te haran mas critico</p>
-            </div>
         </div>
     </section>
     <hr>
@@ -87,7 +82,10 @@
     <!------------------------------------------------------------------- devs end -->
 
     <footer class="footer">
-        <a class="insta_footer" href="https://www.instagram.com/siemprelibertarios/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <address class="icons_footer">
+            <a class="insta_footer" href="https://www.instagram.com/siemprelibertarios/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="email_footer" href="https://www.instagram.com/siemprelibertarios/" target="_blank"><i class="far fa-envelope"></i></a>
+        </address>
         <p>Siempre Libertarios 2020</p> 
     </footer>
 </body>
