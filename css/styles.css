@@ -148,3 +148,8 @@ nav li a:hover{
   color: var(--white-color);
   font-size: 40px;
 }
+
+.email_footer{
+    color: black;
+    font-size: 40px;
+}
