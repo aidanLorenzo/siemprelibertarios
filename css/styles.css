@@ -54,7 +54,7 @@ nav li a:hover{
   border-radius: 50%;
   color: var(--white-color);
   display: inline-flex;
-  font-size: 48px;
+  font-size: 48px;  
   height: 90px;
   justify-content: center;
   text-decoration: none;
@@ -88,7 +88,7 @@ nav li a:hover{
 
 .product_item .product_img{
   height: 200px;
-  width: 100%;
+  width: 100%;  
 }
 
 .product_item .product_item_content{
@@ -141,7 +141,7 @@ nav li a:hover{
   padding: 0px 20px;
 }
 
-.footer .icons_footer{
+.footer .icons_footer a{
   color: var(--white-color);
   font-size: 40px;
 }
