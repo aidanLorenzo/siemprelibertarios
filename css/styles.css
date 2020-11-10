@@ -32,12 +32,14 @@ html, body{
 
 .header li a{
   color: black;
+  font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
   padding-left: 15px;
 }
 
 .header li a:hover{
-  font-size: 18px;
+  font-size: 19px;
   text-decoration: underline;
 }
 /* ------------------------------------------------------------Header end */
