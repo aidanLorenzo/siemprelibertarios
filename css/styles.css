@@ -92,15 +92,12 @@ html, body{
   border-radius: 10px;
   box-shadow: 0 0 5px var(--grey-color);
   padding: 10px;
+  text-align: center; 
 }
 
 .product_item .product_img{
   height: 200px;
   width: 100%;  
-}
-
-.product_item .product_item_content{
-  text-align: center; 
 }
 
 /* -------------------------------------------------------------------product end */
