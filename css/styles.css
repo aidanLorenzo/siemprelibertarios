@@ -16,13 +16,13 @@ html, body{
   align-items: center;
   background-color: var(--yellow-color);
   display: flex;
-  height: 70px;
+  height: 100px;
   justify-content: space-between;
-  padding: 15px;
 }
 
 .header .brand_image img{
   height: 100px;
+  margin-left: 10px;
 }
 
 .header .nav_options ul{
@@ -35,7 +35,7 @@ html, body{
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
-  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header li a:hover{
@@ -110,6 +110,7 @@ html, body{
     background-color: pink;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
     font-size: 20px;
     height: 75px;
     margin: 10px;
@@ -122,10 +123,6 @@ html, body{
 
 .insta{
     background: purple;
-}
-
-.product_button:hover{
-    cursor: pointer;
 }
 
 /* -------------------------------------------------------------------product end */
@@ -178,4 +175,4 @@ html, body{
   color: var(--white-color);
   font-size: 40px;
   margin-right: 10px;
-}
+}   
