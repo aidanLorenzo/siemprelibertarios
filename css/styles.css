@@ -177,3 +177,7 @@ html, body{
   color: var(--white-color);
   font-size: 40px;
 }
+
+.footer .icons_footer .insta_footer{
+  padding-right: 10px;
+}
