@@ -13,3 +13,9 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 1024px){
+    #developers{
+        grid-template-columns: repeat(2, 46.4%);
+    }
+}
