@@ -1,0 +1,16 @@
+@media (max-width: 800px){
+    #hero{
+        margin-bottom: 75px;
+    }
+    .product_container{
+        grid-template-columns: 300px;
+    }
+    #developers{
+        display: inherit;
+        height: auto;
+    }
+    .developer{
+        width: 90%;
+        display: grid;
+    }
+}
