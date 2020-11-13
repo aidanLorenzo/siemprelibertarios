@@ -6,11 +6,7 @@
         grid-template-columns: 300px;
     }
     #developers{
-        grid-template-columns: 100%;
-        height: auto;
-    }
-    .developer{
-        width: 90%;
-        justify-content: center;
+        grid-template-columns: 90%;
+        height: 900px;
     }
 }
