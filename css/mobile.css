@@ -14,7 +14,7 @@
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px, min-width: 501px){
     #developers{
         grid-template-columns: repeat(2, 46.4%);
     }
