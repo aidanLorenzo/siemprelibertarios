@@ -3,7 +3,7 @@
         margin-bottom: 75px;
     }
     .product_container{
-        grid-template-columns: 300px;
+        grid-template-columns: 85.3%;
     }
     #developers{
         grid-template-columns: 90%;
