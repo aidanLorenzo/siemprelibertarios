@@ -1,15 +1,15 @@
-@media (max-width:500px){
-    #hero{
-        margin-bottom: 75px;
-    }
-    .product_container{
-        grid-template-columns: 85.3%;
-    }
+@media screen and (max-width:1200px){
     #developers{
-        grid-template-columns: 90%;
+        grid-template-columns: 80%;
         height: 900px;
     }
-    .developer{
-        justify-content: center;
+}
+
+@media screen and (max-width:850px){
+    .product_container{
+        grid-template-columns: 70%;
+    }
+    .product_buttons{
+        display: flex;
     }
 }
