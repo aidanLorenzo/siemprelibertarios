@@ -1,7 +1,4 @@
-  
-/* ---------------------------------------------------mobile */
-
-@media (max-width: 500px){
+@media (max-width:500px){
     #hero{
         margin-bottom: 75px;
     }
@@ -14,13 +11,5 @@
     }
     .developer{
         justify-content: center;
-    }
-}
-
-/* ----------------------------------------------------tablet */
-
-@media (max-width: 1024px, min-width: 501px){
-    #developers{
-        grid-template-columns: repeat(2, 46.4%);
     }
 }
