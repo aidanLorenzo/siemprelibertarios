@@ -11,6 +11,6 @@
     }
     .developer{
         width: 90%;
-        display: grid;
+        justify-content: center;
     }
 }

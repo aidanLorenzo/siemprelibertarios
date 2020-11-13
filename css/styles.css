@@ -138,17 +138,18 @@ html, body{
   background-image: url('../imgs/curve.png');
   background-position: center top;
   background-size: cover;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
   height: 500px;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .developer{
   background-color: var(--white-color);
-  border: 1px dotted var(--grey-color);
+  box-shadow: 0 0 10px var(--grey-color);
   border-radius: 5px;
   overflow: hidden;
-  width: 500px;
+  margin: 10px;
 }
 
 .developer img{
