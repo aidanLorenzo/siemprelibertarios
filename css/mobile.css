@@ -9,4 +9,7 @@
         grid-template-columns: 90%;
         height: 900px;
     }
+    .developer{
+        justify-content: center;
+    }
 }
