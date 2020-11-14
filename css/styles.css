@@ -38,6 +38,9 @@ html, body{
   color: var(--grey-color);
   text-decoration: underline;
 }
+.menu{
+  display: none;
+}
 /* ------------------------------------------------------------Header end */
 
 #hero{
@@ -105,7 +108,7 @@ html, body{
     color: white;
     cursor: pointer;
     display: flex;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     height: 75px;
     justify-content: center;
