@@ -110,8 +110,8 @@ html, body{
 .product_button{
     align-items: center;
     border-radius: 5px;
-    cursor: pointer;
     color: white;
+    cursor: pointer;
     display: flex;
     font-size: 22px;
     height: 75px;
