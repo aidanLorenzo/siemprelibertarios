@@ -111,17 +111,14 @@ html, body{
     align-items: center;
     border-radius: 5px;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    height: 75px;
-    margin: 10px;
-    width: 250px;
-}
-
-.product_button a{
     color: white;
-    text-decoration: none;
+    display: flex;
     font-size: 22px;
+    height: 75px;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+    width: 250px;
 }
 
 .insta{
