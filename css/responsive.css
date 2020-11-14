@@ -1,0 +1,34 @@
+@media screen and (max-width:1200px){
+    #developers{
+        grid-template-columns: repeat(2, 46.3%);
+    }
+}
+@media screen and (max-width:900px){
+    .product_container{
+        gap: none;
+        grid-template-columns: repeat(3, 32%);
+    }
+    #developers{
+        grid-template-columns: 80%;
+        height: 900px;
+    }
+}
+@media screen and (max-width:800px){
+    .product_container{
+        grid-template-columns: 50%;
+    }
+}
+@media screen and (max-width:650px){
+    .header .brand_image img{
+        margin: 0;
+    }
+    .product_container{
+        grid-template-columns: 75%;
+    }
+    #developers{
+        height: 700px;
+    }
+    .developer img{
+        height: 220px;
+    }
+}

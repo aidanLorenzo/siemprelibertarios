@@ -1,63 +1,71 @@
-*{
+:root{
+  --brown-color: #E67E22;
+  --grey-color: #444;
+  --white-color: #FFF;
   --yellow-color: #FBFB04;
 }
 
 html, body{
-    margin: 0;
-    padding: 0;
-    font-size: 17px;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .header{
-    align-items: center;   
-    background-color: var(--yellow-color);
-    display: flex;
-    height: 100px;
-    justify-content: space-between;
+  align-items: center;
+  background-color: var(--yellow-color);
+  display: flex;
+  justify-content: space-between;
 }
 
-.logo_wrapper{
-    margin: 0;
-    margin-left: 15px;
+.header img{
+  height: 100px;
+  margin-left: 10px;
 }
 
-.menu a{
-    color: black;
-    font-weight: bold;
-    margin-right: 15px;
-    text-decoration: none; 
+.header ul{
+  display: flex;
+  list-style: none;
 }
 
-.menu a:hover{
-    font-size: 18px;
-    text-decoration: underline;
+.header li a{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 15px;
 }
 
+.header li a:hover{
+  color: var(--grey-color);
+  text-decoration: underline;
+}
 /* ------------------------------------------------------------Header end */
 
-.hero{
-    padding: 20%;
-    padding-top: calc(20% - 100px);
-    text-align: center;
+#hero{
+  padding: 16%;
+  padding-bottom: calc(16% - 100px);
+  text-align: center;
 }
 
 .s-m #insta{
-    display: inline-flex;
-    width: 80px;
-    height: 80px;
-    background: rgb(247, 194, 19);
-    color: white;
-    margin: 0 6px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
-    font-size: 48px;
-    text-decoration: none;
+  align-items: center;
+  background-color: var(--brown-color);
+  border-radius: 50%;
+  color: var(--white-color);
+  display: inline-flex;
+  font-size: 48px;  
+  height: 90px;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.4s;
+  width: 90px; 
   }
-  .s-m #insta:hover{
-    background: #e67e22;
+  .s-m #insta:hover{ 
+    background-color: var(--yellow-color);
   }
   .s-m a i{
     transition: 0.4s all;
@@ -68,20 +76,105 @@ html, body{
 
 /* ----------------------------------------------------------------hero end */
 
-.footer{
-    align-items: center;
-    background-color: #444;
-    color: white;
-    display: flex;
-    height: 75px;
-    justify-content: space-between;
+#product_title, .devs_title{
+  margin: 60px 0;
+  text-align: center;
 }
 
+.product_container{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.product_item{
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--grey-color);
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.product_item .product_img{
+  height: 200px;
+  width: 100%;  
+}
+
+.product_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.product_button{
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 22px;
+    height: 75px;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+    width: 250px;
+}
+
+.insta{
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.web{
+  background-image: linear-gradient(90deg, var(--yellow-color), var(--brown-color));
+}
+/* -------------------------------------------------------------------product end */
+
+#developers{
+  align-items: center;
+  background-image: url('../imgs/curve.png');
+  background-position: center top;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+.developer{
+  background-color: var(--white-color);
+  box-shadow: 0 0 10px var(--grey-color);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.developer img{
+  height: 300px;
+  width: 100%;
+}
+
+.content a{
+  color: var(--grey-color);
+  text-decoration: none;
+}
+
+.content a:hover{
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------devs end */
+
 .footer{
+  align-items: center;
+  background-color: var(--grey-color);
+  color: var(--white-color);
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
   padding: 0px 20px;
 }
 
-.footer .insta_footer{
-    color: white;
-    font-size: 40px;
+.footer .icons_footer a{
+  color: var(--white-color);
+  font-size: 40px;
+  margin-right: 10px;
 }
