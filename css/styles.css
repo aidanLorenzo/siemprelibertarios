@@ -10,7 +10,6 @@ html, body{
   font-size: 17px;
   margin: 0;
   padding: 0;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -20,17 +19,14 @@ html, body{
   display: flex;
   justify-content: space-between;
 }
-
 .header img{
   height: 100px;
   margin-left: 10px;
 }
-
 .header ul{
   display: flex;
   list-style: none;
 }
-
 .header li a{
   color: black;
   font-size: 18px;
@@ -38,7 +34,6 @@ html, body{
   text-decoration: none;
   padding-right: 15px;
 }
-
 .header li a:hover{
   color: var(--grey-color);
   text-decoration: underline;
@@ -88,7 +83,6 @@ html, body{
   justify-content: space-evenly;
   margin-bottom: 50px;
 }
-
 .product_item{
   border-radius: 10px;
   box-shadow: 0 0 5px var(--grey-color);
@@ -96,7 +90,6 @@ html, body{
   text-align: center;
   overflow: hidden;
 }
-
 .product_item .product_img{
   height: 200px;
   width: 100%;  
@@ -106,7 +99,6 @@ html, body{
     display: flex;
     justify-content: center;
 }
-
 .product_button{
     align-items: center;
     border-radius: 5px;
@@ -114,6 +106,7 @@ html, body{
     cursor: pointer;
     display: flex;
     font-size: 20px;
+    font-weight: bold;
     height: 75px;
     justify-content: center;
     margin: 10px;
@@ -139,14 +132,12 @@ html, body{
   height: 500px;
   justify-content: space-evenly;
 }
-
 .developer{
   background-color: var(--white-color);
   box-shadow: 0 0 10px var(--grey-color);
   border-radius: 5px;
   overflow: hidden;
 }
-
 .developer img{
   height: 300px;
   width: 100%;
@@ -156,7 +147,6 @@ html, body{
   color: var(--grey-color);
   text-decoration: none;
 }
-
 .content a:hover{
   text-decoration: underline;
 }
@@ -172,7 +162,6 @@ html, body{
   justify-content: space-between;
   padding: 0px 20px;
 }
-
 .footer .icons_footer a{
   color: var(--white-color);
   font-size: 40px;
