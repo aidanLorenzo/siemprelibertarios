@@ -1,15 +1,15 @@
 @media screen and (max-width:1200px){
     #developers{
-        grid-template-columns: 80%;
-        height: 900px;
+        grid-template-columns: repeat(2, 46.3%);
     }
 }
 
 @media screen and (max-width:850px){
     .product_container{
-        grid-template-columns: 70%;
+        grid-template-columns: 60%;
     }
-    .product_buttons{
-        display: flex;
+    #developers{
+        grid-template-columns: 80%;
+        height: 900px;
     }
 }
