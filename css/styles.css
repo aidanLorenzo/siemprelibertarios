@@ -10,7 +10,6 @@ html, body{
   font-size: 17px;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 .header{
@@ -36,16 +35,11 @@ html, body{
 }
 .header li a:hover{
   color: var(--grey-color);
-  text-decoration: underline;
-}
-.menu{
-  display: none;
 }
 /* ------------------------------------------------------------Header end */
 
 #hero{
-  padding: 16%;
-  padding-bottom: calc(16% - 100px);
+  padding: 12%;
   text-align: center;
 }
 
@@ -68,7 +62,7 @@ html, body{
   .s-m a i{
     transition: 0.4s all;
   }
-  .s-m a:hover > i{
+  .s-m a:hover i{
     transform: scale(1.6) rotate(25deg);
   }
 
@@ -78,10 +72,9 @@ html, body{
   margin: 60px 0;
   text-align: center;
 }
-
 .product_container{
   display: grid;
-  gap: 20px;
+  gap: 10px;
   grid-template-columns: repeat(3, 300px);
   justify-content: space-evenly;
   margin-bottom: 50px;
@@ -99,28 +92,26 @@ html, body{
 }
 
 .product_buttons{
-    display: flex;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 250px);
     justify-content: center;
+    margin-bottom: 50px;
 }
 .product_button{
-    align-items: center;
     border-radius: 5px;
     color: white;
-    cursor: pointer;
-    display: flex;
     font-size: 22px;
     font-weight: bold;
-    height: 75px;
-    justify-content: center;
-    margin: 10px;
     text-decoration: none;
-    width: 250px;
+    text-align: center;
+    padding: 20px 0;
 }
 .insta{
-  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 .web{
-  background-image: linear-gradient(90deg, var(--yellow-color), var(--brown-color), var(--grey-color));
+  background-image: linear-gradient(45deg, var(--yellow-color), var(--brown-color), var(--grey-color));
 }
 /* -------------------------------------------------------------------product end */
 
@@ -144,13 +135,11 @@ html, body{
   height: 300px;
   width: 100%;
 }
-.content{
-  padding: 0 10px 10px;
-} 
-.content a{
+.content, .content a{
+  padding: 0 10px 5px;
   color: var(--grey-color);
   text-decoration: none;
-}
+} 
 .content a:hover{
   text-decoration: underline;
 }

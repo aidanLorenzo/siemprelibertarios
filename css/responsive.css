@@ -27,7 +27,6 @@
     .developer img{
         height: 220px;
     }
-}
 @media screen and (max-width:500px){
     #hero{
         margin-bottom: 100px;
@@ -37,13 +36,15 @@
     }
     .product_button{
         font-size: 16px;
+        font-weight: normal;
+    }
+    .product_buttons{
+        grid-template-columns: repeat(2, 43.6%);
     }
 }
 @media screen and (max-width:350px){
-    .one, .two, .three{
+    .three{
         display: none;
     }
-    .menu, .icons_footer{
-        display: flex;
-    }
 }
+
