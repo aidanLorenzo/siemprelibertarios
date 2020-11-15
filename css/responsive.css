@@ -22,7 +22,7 @@
         margin: 0;
     }
     #developers{
-        height: 700px;
+        height: 750px;
     }
     .developer img{
         height: 220px;
@@ -30,7 +30,7 @@
 }
 @media screen and (max-width:500px){
     #hero{
-        margin-bottom: 75px;
+        margin-bottom: 100px;
     }
     .product_container{
         grid-template-columns: 80%;
