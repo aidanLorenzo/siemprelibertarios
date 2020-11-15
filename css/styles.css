@@ -6,6 +6,7 @@
 }
 
 html, body{
+  background-color: var(--yellow-color);
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   margin: 0;
@@ -46,6 +47,7 @@ nav li a:hover{
 /* ------------------------------------------------------------Header end */
 
 #hero{
+  background-image: url("https://www.publicdomainpictures.net/pictures/130000/nahled/yellow-seamless-background-1438296376FOu.jpg");
   padding: 16%;
   padding-bottom: calc(16% - 100px);
   text-align: center;
@@ -76,12 +78,14 @@ nav li a:hover{
 
 /* ----------------------------------------------------------------hero end */
 
-#product_title{
-  margin: 70px 0;
+#product_title, .devs_title{
+  background-image: url("https://www.publicdomainpictures.net/pictures/130000/nahled/yellow-seamless-background-1438296376FOu.jpg");
+  padding: 60px 0;
   text-align: center;
 }
 
 .product_container{
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.kCyrAYJFCvvACuzsGdQP3QHaD5%26pid%3DApi&f=1");
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 300px);
@@ -90,7 +94,12 @@ nav li a:hover{
 }
 
 .product_item{
-  height: 300px; 
+  background-color: var(--white-color);
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--grey-color);
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
 }
 
 .product_item .product_img{
