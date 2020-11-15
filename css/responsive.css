@@ -5,11 +5,11 @@
 }
 @media screen and (max-width:900px){
     .product_container{
-        grid-template-columns: repeat(3, 32%);
+        grid-template-columns: repeat(3, 33%);
     }
     #developers{
         grid-template-columns: 80%;
-        height: 900px;
+        height: 1000px;
     }
 }
 @media screen and (max-width:775px){
@@ -22,7 +22,7 @@
         margin: 0;
     }
     #developers{
-        height: 750px;
+        height: 825px;
     }
     .developer img{
         height: 220px;

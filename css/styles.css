@@ -145,12 +145,11 @@ html, body{
   width: 100%;
 }
 .content{
-  padding: 0 10px;
+  padding: 0 10px 10px;
 } 
 .content a{
   color: var(--grey-color);
   text-decoration: none;
-  margin: 0;
 }
 .content a:hover{
   text-decoration: underline;
