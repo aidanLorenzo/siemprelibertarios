@@ -116,12 +116,11 @@ html, body{
     text-decoration: none;
     width: 250px;
 }
-
 .insta{
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 .web{
-  background-image: linear-gradient(90deg, var(--yellow-color), var(--brown-color));
+  background-image: linear-gradient(90deg, var(--yellow-color), var(--brown-color), var(--grey-color));
 }
 /* -------------------------------------------------------------------product end */
 
@@ -147,12 +146,11 @@ html, body{
 }
 .content{
   padding: 0 10px;
-  height: 100px;
-  display: inline-block;
 } 
 .content a{
   color: var(--grey-color);
   text-decoration: none;
+  margin: 0;
 }
 .content a:hover{
   text-decoration: underline;
