@@ -1,23 +1,19 @@
 @media screen and (max-width:1200px){
     #developers{
-        grid-template-columns: repeat(2, 46.3%);
+        gap: 25px;
+        grid-template-columns: 75%;
+        height: auto;
+        padding-bottom: 25px;
     }
-}
-@media screen and (max-width:900px){
     .product_container{
-        grid-template-columns: repeat(3, 33%);
-    }
-    #developers{
-        grid-template-columns: 80%;
-        height: 1000px;
-    }
-}
-@media screen and (max-width:775px){
-    .product_container{
+        gap: 35px;
         grid-template-columns: 50%;
     }
 }
 @media screen and (max-width:650px){
+    .product_container{
+        grid-template-columns: 80%;
+    }
     .header .brand_image img{
         margin: 0;
     }
@@ -31,9 +27,6 @@
     #hero{
         margin-bottom: 100px;
     }
-    .product_container{
-        grid-template-columns: 80%;
-    }
     .product_button{
         font-size: 16px;
         font-weight: normal;
@@ -43,8 +36,7 @@
     }
 }
 @media screen and (max-width:350px){
-    .three{
+    .one{
         display: none;
     }
 }
-
