@@ -74,20 +74,22 @@ html, body{
 }
 .product_container{
   display: grid;
-  gap: 10px;
   grid-template-columns: repeat(3, 400px);
   justify-content: space-evenly;
   margin-bottom: 50px;
 }
 .product_item{
-  border-radius: 10px;
-  box-shadow: 0 0 5px var(--grey-color);
+  cursor: pointer;
   padding: 10px;
   text-align: center;
   overflow: hidden;
 }
+.product_img_wrapper{
+  margin: 0;
+}
 .product_item .product_img{
-
+  width: 50%;
+  height: 150px;
 }
 
 .product_buttons{
