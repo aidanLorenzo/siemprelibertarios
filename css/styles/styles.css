@@ -36,7 +36,6 @@ html, body{
 .header li a:hover{
   color: var(--grey-color);
 }
-/* ------------------------------------------------------------Header end */
 
 #hero{
   padding: 12%;
@@ -66,8 +65,6 @@ html, body{
     transform: scale(1.6) rotate(25deg);
   }
 
-/* ----------------------------------------------------------------hero end */
-
 #product_title, .devs_title{
   margin: 60px 0;
   text-align: center;
@@ -77,18 +74,20 @@ html, body{
   grid-template-columns: repeat(3, 400px);
   justify-content: space-evenly;
   margin-bottom: 50px;
+  transition: 450ms transform, 450ms -webkit-transform;
 }
 .product_item{
-  background-color: rgba(255, 255, 0, 0.5);
+  border: .5px solid var(--grey-color);
   border-radius: 25px;
   cursor: pointer;
   padding: 10px;
   overflow: hidden;
   text-align: center;
+  transition: 450ms all;
 }
 .product_item:hover{
-  background-color: var(--white-color);
   box-shadow: 0 0 5px var(--grey-color);
+  -webkit-transform: scale(1.1);
 }
 .product_item .product_img{
   border-radius: 25%;
@@ -117,7 +116,6 @@ html, body{
 .web{
   background-image: linear-gradient(45deg, var(--yellow-color), var(--brown-color), var(--grey-color));
 }
-/* -------------------------------------------------------------------product end */
 
 #developers{
   align-items: center;
@@ -147,8 +145,6 @@ html, body{
 .content a:hover{
   text-decoration: underline;
 }
-
-/* ------------------------------------------------------------------devs end */
 
 .footer{
   align-items: center;
