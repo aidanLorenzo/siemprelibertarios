@@ -119,10 +119,10 @@ html, body{
 }
 .web{
   background-image: linear-gradient(45deg, var(--yellow-color), var(--brown-color), var(--grey-color));
-  transition: all 300ms;
 }
 .web:hover{
   background-image: linear-gradient(45deg, var(--grey-color), var(--brown-color), var(--yellow-color));
+  transition: all 300ms;
 }
 
 #developers{
