@@ -11,13 +11,9 @@
     }
 }
 @media screen and (max-width:650px){
-    .header .brand_image img{
-        margin: 0;
-    }
-    #developers{
+    #developers{    
         gap: 20px;
     }
-    
 }
 @media screen and (max-width:525px){
     #hero{
