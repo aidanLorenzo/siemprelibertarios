@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c9793bed6f.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="./imgs/logo.png">
+    <link rel="icon" type="image/png" href="./imgs/logo.png">     
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Home | Siempre Libertarios</title>
@@ -14,17 +13,17 @@
 <body>
     <header class="header">
         <div class="brand_image">
-            <a href="./index.html"><img src="./imgs/logo.png" alt="logo"></a>
+            <a href="./index.html"><img src="./imgs/logo.png" alt="logo" height="100"></a>
         </div>
         <nav class="nav_options">
             <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="#product_title">Contenido</a></li>
-                <li><a href="#developers">Devs</a></li>
+                <li class="li one"><a href="./index.html">Inicio</a></li>
+                <li class="li"><a href="#product_title">Contenido</a></li>
+                <li class="li"><a href="#developers">Devs</a></li>
             </ul>
         </nav>
     </header>
-    <!--------------------------------------------------------------- header end -->
+
     <section id="hero">
         <h2 class="hero_phrase">
             Una pagina donde podras abrirte a una nueva manera de ver el mundo
@@ -32,62 +31,66 @@
         <div class="s-m">
             <a id="insta" href="https://www.instagram.com/siemprelibertarios/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-    </section>
-    <hr>
-    <!------------------------------------------------------------------- hero end -->
+    </section> <hr>
 
     <h2 id="product_title">¿Que encontraras aqui?</h2>
     <section class="product_container">
-        <div class="product_item one">
+        <div class="product_item">
             <figure class="product_img_wrapper">
-                <img src="./imgs/text.jpg" alt="texto" class="product_img">
+                <img src="./imgs/paper.jpg" alt="texto" class="product_img" height="150">
             </figure>
+            <div>
                 <h3>Acceso a escritos gratis</h3>
-                <p>Lee todo el contenido que tenemos para ti</p>
+                <p>Lee todo el contenido que tenemos para ti dandole al boton</p>
+            </div>
         </div>
-        <div class="product_item two">
+        <div class="product_item">
             <figure class="product_img_wrapper">
-                <img src="./imgs/handshake.jpg" alt="interactua" class="product_img">
+                <img src="./imgs/people.svg" alt="interactua" class="product_img" height="150" width="150">
             </figure>
+            <div>
                 <h3>Interactua con otros</h3>
-                <p>Usa el sistema de comentarios o entra a nuestra pagina de instagram</p>
+                    <p>Usa el sistema de comentarios o entra a nuestra pagina de instagram</p>
+            </div>
         </div>
-        <div class="product_item three">
+        <div class="product_item">
             <figure class="product_img_wrapper">
-                <img src="./imgs/brain.png" alt="expande mente" class="product_img">
+                <img src="./imgs/brain.png" alt="expande mente" class="product_img" height="150">
             </figure>
+            <div>
                 <h3>Expande tu mente</h3>
                 <p>Observa distintos puntos de vista que te haran mas critico</p>
+            </div>
         </div>
     </section>
+
     <div class="product_buttons">
             <a href="./content.html" class="product_button web">Leer en la web</a>
             <a href="https://www.instagram.com/siemprelibertarios/" target="blank" class="product_button insta">Leer en instagram</a>
-    </div>
-    <hr>
-    <!------------------------------------------------------------------ product end -->
-    
+    </div> <hr>
+
     <h2 class="devs_title">Desarrolladores</h2>
     <section id="developers">
         <div class="developer">
+            <img src="./imgs/aidan.jpg" alt="aidan" height="300" width="600">
             <div class="content">
-                <img src="./imgs/aidan.jpg" alt="aidan">
                 <h3>Aidan Lorenzo</h3>
-                <a href="https://www.instagram.com/x.aidxn_/" target="blank">@x.aidxn_</a>
+                <p>Desarrollador principal</p>
+                <span>Insta: <a href="https://www.instagram.com/x.aidxn_/">@x.aidxn_</a target="_blank"></span>
             </div>
         </div>
         <div class="developer">
+            <img src="./imgs/miquel.jpg" alt="miquel" height="300" width="600">
             <div class="content">
-                <img src="./imgs/miquel.jpg" alt="miquel">
                 <h3>Miquel Muntaner</h3>
-                <a href="https://www.instagram.com/miquelmuntaner2/" target="blank">@miquelmuntaner2</a>
+                <p>Ayudante y colaborador</p>
+                <span>Insta: <a href="https://www.instagram.com/miquelmuntaner2/" target="_blank">@miquelmuntaner2</a></span> 
             </div>   
         </div>
     </section>
-    <!------------------------------------------------------------------- devs end -->
-
+    
     <footer class="footer">
-        <p>Siempre Libertarios 2020</p> 
+        <small>Siempre Libertarios 2020</small> 
         <address class="icons_footer">
             <a class="insta_footer" href="https://www.instagram.com/siemprelibertarios/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a class="email_footer" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sibertarios@gmail.com&tf=1/" target="_blank"><i class="far fa-envelope"></i></a>

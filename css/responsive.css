@@ -1,34 +1,38 @@
 @media screen and (max-width:1200px){
     #developers{
-        grid-template-columns: repeat(2, 46.3%);
-    }
-}
-@media screen and (max-width:900px){
-    .product_container{
-        gap: none;
-        grid-template-columns: repeat(3, 32%);
-    }
-    #developers{
-        grid-template-columns: 80%;
-        height: 900px;
-    }
-}
-@media screen and (max-width:800px){
-    .product_container{
-        grid-template-columns: 50%;
-    }
-}
-@media screen and (max-width:650px){
-    .header .brand_image img{
-        margin: 0;
-    }
-    .product_container{
+        gap: 25px;
         grid-template-columns: 75%;
-    }
-    #developers{
-        height: 700px;
+        height: auto;
+        padding-bottom: 25px;
     }
     .developer img{
-        height: 220px;
+        width: 100%;
+    }
+    .product_container{
+        grid-template-columns: 500px;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:525px){
+    #hero{
+        margin: 50px 0;
+    }
+    .product_container{
+        grid-template-columns: 80%;
+    }
+    .product_button{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .product_buttons{
+        grid-template-columns: repeat(2, 43.6%);
+    }
+    .developer img{
+        height: 250px;
+    }
+}
+@media screen and (max-width:350px){
+    .one{
+        display: none;
     }
 }
