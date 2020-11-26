@@ -5,19 +5,17 @@
         height: auto;
         padding-bottom: 25px;
     }
+    .developer img{
+        width: 100%;
+    }
     .product_container{
         grid-template-columns: 500px;
         gap: 20px;
     }
 }
-@media screen and (max-width:650px){
-    #developers{    
-        gap: 20px;
-    }
-}
 @media screen and (max-width:525px){
     #hero{
-        margin-bottom: 100px;
+        margin: 50px 0;
     }
     .product_container{
         grid-template-columns: 80%;
