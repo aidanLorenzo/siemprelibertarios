@@ -106,7 +106,7 @@ html, body{
 
 #developers{
   align-items: center;
-  background-image: url('../../imgs/curve.png');
+  background-image: url('../imgs/curve.png');
   background-position: center top;
   background-size: cover;
   display: grid;
