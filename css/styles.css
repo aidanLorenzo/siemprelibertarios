@@ -18,8 +18,8 @@ html, body{
   display: flex;
   justify-content: space-between;
 }
-.header img{
-  margin-left: 10px;
+.header .brand_image{
+  margin: 0 10px;
 }
 .header ul{
   display: flex;
@@ -34,13 +34,12 @@ html, body{
 .header a:hover, .content a:hover{
   text-decoration: underline;
 }
-
 #hero{
   padding: 12%;
   text-align: center;
 }
 
-.s-m #insta{
+.hero_insta_container #insta{
   align-items: center;
   background-color: var(--brown-color);
   border-radius: 50%;
@@ -52,10 +51,10 @@ html, body{
   text-decoration: none;
   width: 90px; 
   }
-  .s-m a i{
+  .hero_insta_container a i{
     transition: 0.4s all;
   }
-  .s-m a:hover i{
+  .hero_insta_container a:hover i{
     transform: scale(1.6) rotate(25deg);
   }
 
@@ -69,33 +68,31 @@ html, body{
   justify-content: space-evenly;
 }
 .product_item{
-  border: .5px solid var(--grey-color);
+  border: 1px solid var(--grey-color);
   border-radius: 25px;
   cursor: pointer;
-  overflow: hidden;
   padding: 10px;
   text-align: center;
   transition: 450ms all;
 }
 .product_item:hover{
   box-shadow: 0 0 5px var(--grey-color);
-  -webkit-transform: scale(1.1);
+  -webkit-transform: scale(0.9);
 }
 .product_buttons{
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(2, 250px);
+  display: flex;
   justify-content: center;
-  margin: 60px 0;
 }
 .product_button{
   border-radius: 5px;
   color: var(--white-color);
   font-size: 22px;
   font-weight: bold;
+  margin: 40px 10px;
+  padding: 20px 0;
   text-align: center;
   text-decoration: none;
-  padding: 20px 0;
+  width: 250px;
 }
 .insta{
   background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
